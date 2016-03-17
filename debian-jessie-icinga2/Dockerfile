@@ -54,3 +54,4 @@ EXPOSE 3000
 ENTRYPOINT service icinga2 start
 ENTRYPOINT service grafana-server start
 ENTRYPOINT service icinga2 start && service grafana-server start && service apache2 start && bash
+
